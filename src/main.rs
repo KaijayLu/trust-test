@@ -1,5 +1,7 @@
 fn main() {
-    println!("Hello, world!");
+    for _ in 0..5 {
+        println!("Hello, world!");
+    }
 }
 
 #[cfg(test)]
